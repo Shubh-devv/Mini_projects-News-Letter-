@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Giloy', sans-serif;
+}
+
+html, body {
+width: 100%;
+height: 100%;
+background-color: rgb(55,56,78);
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.main{
+    background-color: white;
+    border-radius: 10px;
+    height: 70%;
+    width: 60%;
+    display: flex;
+    padding: 1%;
+}
+
+.main img{
+    height: 100%;
+    width: 100%;
+    margin-left: 20%;
+}
+
+.text{
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.text h1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-weight: 700;
+    padding-left: 15%;
+
+}
+
+.text #below-heading{
+    margin-top: 1%;
+    padding-left: 15%;
+    margin-bottom: 5%;
+    font-weight: 100;
+    font-size: 80%;    
+}
+
+.text img{
+    height: 3%;
+    position: absolute;
+    margin-right: 10px;
+    transform: translateX(-66%);  
+    display: flex;  
+}
+
+.text #sub-text h3{
+    display: flex;
+    font-size: 60%;
+    font-weight:40;
+    transform: translateX(22%);
+    padding-top: 1.5%;
+}
+
+.text #sub-text #check-1{
+    margin-bottom: 20px;
+}
+
+.email{
+    transform: translateY(40%);
+    width: 90%;
+    padding-left: 15%;
+}
+
+.email h4{
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.email #email-box{
+    color: rgba(0, 0, 0, 0.5); 
+    width: 140%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+
+.email #email-button{
+    width: 140%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(34,39,78);
+    font-weight: 750;
+    font-size: 12px;
+    border-radius: 5px;
+    color: white;
+}
